@@ -1,4 +1,4 @@
-publish the application using the following command:
+for windows publish the application using the following command:
 
 dotnet publish -c Release -f net8.0-windows10.0.19041.0 `
   -p:RuntimeIdentifier=win-x64 `
@@ -10,3 +10,12 @@ dotnet publish -c Release -f net8.0-windows10.0.19041.0 `
 find the published application in the following directory:
 
 explorer .\bin\Release\net8.0-windows10.0.19041.0\win-x64\publish\
+
+
+for android publish the application using the following command:
+
+dotnet publish -c Release -f net8.0-android
+
+find the published application in the following directory:
+
+explorer .\bin\Release\net8.0-android\publish\
