@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="QuakeWatch.Pages.HomePage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Home">
+
+    <VerticalStackLayout Spacing="16"
+                         Padding="24"
+                         VerticalOptions="Center">
+        <Label Text="QuakeWatch - Leaflet Map"
+               FontSize="20"
+               HorizontalOptions="Center" />
+
+        <Button Text="Open Map"
+                Clicked="OnOpenMapClicked" />
+    </VerticalStackLayout>
+</ContentPage>
